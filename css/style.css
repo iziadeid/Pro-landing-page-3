@@ -352,13 +352,13 @@ nav .logo {
 
 .explore .iteams .box:nth-child(3) {
     z-index: 3;
-    animation: move-top 2s linear forwards;
+    animation: move-top .5s 1.5s linear forwards;
 
 }
 
 .explore .iteams .box:nth-child(2),
 .explore .iteams .box:nth-child(4) {
-    animation: move-top2 2s linear forwards;
+    animation: move-top2 .4s 2s linear forwards;
 
 }
 
@@ -860,6 +860,7 @@ nav .logo {
 
 }
 
+
 @keyframes move-top {
 
 
@@ -868,10 +869,6 @@ nav .logo {
 
     }
 
-    75% {
-
-        transform: translatey(0%);
-    }
 
 }
 
@@ -881,11 +878,6 @@ nav .logo {
     100% {
         transform: translatey(-9%);
 
-    }
-
-    75% {
-
-        transform: translatey(0%);
     }
 
 }
